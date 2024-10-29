@@ -62,5 +62,5 @@ try {
 
 
 server.listen('6000',() => {
-    console.log('Serveur web lancé sur http://localhost:6000');
+    console.log('Serveur web lancé sur');
 } )
