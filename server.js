@@ -20,7 +20,7 @@ const serviceAccount = {
 // ... existing code ...
 server.use(bodyParser.json()); // Utiliser JSON pour les requêtes POST
 server.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://jean-christ.vercel.app',
     methods: 'GET, PUT, POST, DELETE, PATCH',
     credentials: true
   }));
